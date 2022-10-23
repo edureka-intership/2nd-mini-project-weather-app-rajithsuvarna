@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <form id="search-form">
+        <input type="search" placeholder="Enter the city name" id="search-input" required autocomplete="off"/>
+        
+    </br>
+    <button id="search-button">Search</button>
+    </form>
+    <main id="app-container">
+        <div id="location">
+            <p>Weather App</p>
+        </div>
+        <div id="temp">
+            <img id="temp-icon" src="./images/weather.png" alt="">
+            <p><span id="temp-value">Temperature in </span><span id="temp-unit">&#176c</span></p>
+        </div>
+        <div id="climate">
+            <p>Climate</p>
+        </div>
+      </br>
+      <div id="humid">
+        <p><span id="hum-id">Humidity: </span><span id="humidity">-  </span><span id="hum-unit">%</span></p>
+    </div>
+    <div id="windspeed">
+      <p><span id="wind-speed">Wind Speed: </span><span id="wind">-  </span></span><span id="speed-unit">Km/h</span></p>
+  </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
